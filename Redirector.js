@@ -1,4 +1,4 @@
-function reidrect(){
+function redirect(){
   let secret=Math.random();
   secret="secret="+secret;
   document.cookie = secret;
