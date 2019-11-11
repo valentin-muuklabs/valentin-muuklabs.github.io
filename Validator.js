@@ -1,4 +1,5 @@
 function validateSecret(){
+  alert("Validation");
   
   let secret=document.cookie.toString().split(";").find(element=>element.indexOf("secret=")!=-1);
   
