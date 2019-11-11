@@ -1,6 +1,4 @@
-function validateSecret(){
-  alert("Validation");
-  
+function validateSecret(){  
   let secret=document.cookie.toString().split(";").find(element=>element.indexOf("secret=")!=-1);
   
   let param= window.location.href.split("?")[1];
