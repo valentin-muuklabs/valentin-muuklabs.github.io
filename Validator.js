@@ -7,7 +7,7 @@ function validateSecret(){
     // document.getElementById("secret").innerText=document.cookie;
   }
   else{
-    window.location.replace("https://valentin-muuklabs.github.io/Error.html");
+    window.location= "https://valentin-muuklabs.github.io/Error.html";
   }
 }
 
