@@ -9,7 +9,7 @@ function validateSecret(){
     // document.getElementById("secret").innerText=document.cookie;
   }
   else{
-    document.location.href="Error.html";
+    window.location.replace("Error.html");
   }
 }
 
